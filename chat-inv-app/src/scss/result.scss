@@ -1,0 +1,130 @@
+.res-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.r-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    & > p{
+        font-size: 36px;
+        font-weight: bold;
+        color: #82CDEB;
+        text-align: center;
+    }
+
+    & > div{
+        margin: auto;
+        margin-top: 0;
+        width: 85% !important;
+        height: 60%;
+        margin-top: 80px;
+    }
+};
+
+.line-center{
+    height: 90vh;
+    width: 1px;
+    background-color: white;
+};
+
+
+.l-side{
+    width: 100%;
+    height: 100%;
+    & > p{
+        font-size: 36px;
+        font-weight: bold;
+        color: #82CDEB;
+        text-align: center;
+    }
+
+    .contents{
+        width: 100%;
+        height: 88%;
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .line-center-h{
+        height: 2px;
+        width: 90%;
+        background-color: white;
+    }
+
+    .block {
+        padding: 0px 20px;
+        width: 100%;
+        height: 100%;
+        color: white;
+
+
+        & > p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        & > div{
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid white;
+            border-radius: 20px;
+            padding: 0px 20px;
+            & > p {
+                font-size: 16px;
+            }
+        }
+
+    }
+};
+
+
+#btn-arrow{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    img{
+        width: 30%;
+        height: 30%;
+    }
+}
+
+.zipCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+    .highlight{
+        background-color: #82cdeb3a;
+        border-radius: 20px;
+        padding: 18px 20px;
+    }
+}
+
+
+.loading-text{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
